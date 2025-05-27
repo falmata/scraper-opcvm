@@ -1,6 +1,6 @@
 ## Context
 
-The aim of this project is to collect and analyze financial data. The aim is to retrieve the share price of an OPCVM (**ISIN IE0002ZXSH01**) from a public source, then calculate indicators over several periods. The results are then exported to a CSV file. Add some granulaty to the data.
+This project aims to collect and analyze financial data. We have to retrieve the share price of an OPCVM (**ISIN IE0002ZXSH01**) from a public source, then calculate indicators over several periods. The results are then exported to a CSV file. Add some granularity to the data.
 
 - **Data source: Yahoo Finance (https://finance.yahoo.com/quote/WPEA.PA/history/)**
 
@@ -33,7 +33,7 @@ Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-**Important**: Your version of python greater than 3.7
+**Important**: Your version of Python must be greater than 3.7
 
 ## Usage
 ```bash
@@ -49,7 +49,7 @@ The script will:
 
 ## Financial Indicators Formulas
 
-- **Performance (Total Return)**  
+- **Performance**  
 \[
 \text{Performance} = \frac{\text{Final Price}}{\text{Initial Price}} - 1
 \]
