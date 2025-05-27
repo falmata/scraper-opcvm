@@ -48,25 +48,4 @@ The script will:
 - Open the generated CSV file to view the results.
 
 ## Financial Indicators Formulas
-
-- **Performance**  
-\[
-\text{Performance} = \frac{\text{Final Price}}{\text{Initial Price}} - 1
-\]
-
-- **Volatility**  
-\[
-\text{Volatility} = \sigma_{\text{daily returns}} \times \sqrt{252}
-\]
-where \( \sigma \) is the standard deviation of daily returns and 252 is the approximate number of trading days in a year.
-
-- **Expected Return**  
-\[
-\text{Expected Return} = \mu_{\text{daily returns}} \times 252
-\]
-where \( \mu \) is the average of daily returns.
-
-- **Maximum Drawdown**  
-\[
-\text{Max Drawdown} = \min \left( \frac{\text{Cumulative Return}}{\text{Cumulative Max}} - 1 \right)
-\]
+![Formules](data/formulaes.png)
