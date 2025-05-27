@@ -5,6 +5,9 @@ import pandas as pd
 def get_yahoo_history_data(symbol: str,
                            period: str,
                            interval: str) -> pd.DataFrame:
+
+    # I added a user-agent header to the request
+    # to avoid being blocked by Yahoo Finance
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
     }

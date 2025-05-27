@@ -22,6 +22,9 @@ def main():
     }
 
     all_data = {}
+
+    # the data will be scraped from Yahoo Finance
+    # for the last 1 year with daily interval
     data = get_yahoo_history_data(symbol, period='1y', interval='1d')
 
     for period, start in periods.items():
