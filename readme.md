@@ -6,6 +6,7 @@ The aim of this project is to collect and analyze financial data. The aim is to 
 
 ## Project Structure
 scraper-opcvm/
+
 ├── data/                    
 ├── src/            
 │   ├── data.py           
